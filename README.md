@@ -4,7 +4,7 @@ Ansible is a configuration management software that lets you control and configu
 What makes it different from other management software is that Ansible uses (potentially existing) SSH infrastructure,
 while others (Chef, Puppet, ...) need a specific PKI infrastructure to be set up.
 
-##Prerequisites
+## Prerequisites
 You need the following python modules on your machine (the machine you run ansible on)
 
     python-yaml
@@ -14,7 +14,7 @@ On Debian/Ubuntu run: sudo apt-get install python-yaml python-jinja2 python-para
 
 Assuming you have a keypair in your ~/.ssh directory.
 
-##Installing Ansible
+## Installing Ansible
 From source
 
 Ansible devel branch is always usable, so we'll run straight from a git checkout. 
@@ -27,6 +27,6 @@ At this point, we can load the Ansible environment:
 
 source ./hacking/env-setup
 
-##Goal
+## Goal
 This repo will have multiple roles and modules amongst other ansible concepts that I'll be working on and everything
 new I learn. Will have explaination of my errors and how I solved them for my beter understanding of Ansible.  
