@@ -38,3 +38,4 @@ Also, as it’s written in Python. So, Python version specifically 2.4 and highe
 Configuration files are mainly written in the YAML data serialization format due to its expressive nature
 and its similarity to popular markup languages. Ansible can interact with clients through either command line tools
 or through its configuration scripts called Playbooks.
+Each playbook contains one or more plays, which map hosts to a certain function. Ansible does this through something called tasks, which are basically module calls.
